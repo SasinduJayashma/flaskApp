@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: yourusername/flask-app:latest # Replace with your Docker image name.
+        image: jummy98/webappflask:latest # Replace with your Docker image name.
         ports:
         - containerPort: 5000
         env:
