@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: jummy98/webappflask:latest # Replace with your Docker image name.
+        image: jummy98/webappflask:1.0.0.1 # Replace with your Docker image name.
         ports:
         - containerPort: 5000
         env:
